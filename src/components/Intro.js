@@ -43,7 +43,6 @@ const Buttons = styled.div`
     width:100%;
 `
 
-// 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
 
 const Intro = () => {
   return (
