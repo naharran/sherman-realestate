@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from "styled-components"
-import {fLight,fRegular,fBold,fLarge,fontFamily,fontBold,fontMedium} from "../styles/fonts"
-import IntroPngImg from '../images/intro.png';
+import {fontFamily,fontBold,fontMedium} from "../styles/fonts"
 import MyVideo from "../images/introBeach.mp4";
 import RectangleButton from "./RectangleButton"
 const IntroContainer = styled.div`
@@ -42,7 +41,6 @@ const Buttons = styled.div`
     justify-content:space-between;
     width:100%;
 `
-
 
 const Intro = () => {
   return (
