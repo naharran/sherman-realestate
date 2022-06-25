@@ -57,7 +57,7 @@ const Intro = () => {
         <RectangleButton color={"#66AB8C"} label={"Prices"}/>
     </Buttons>
 </Text>
-    <IntroImg controls loop AutoPlay={"AutoPlay"} preLoad="auto">
+    <IntroImg loop autoPlay muted preLoad="auto">
     <source src={MyVideo} type="video/mp4" />
 </IntroImg>
     </IntroContainer>
