@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from "styled-components"
-import {fontFamily,fontBold,fontMedium} from "../styles/fonts"
+import {fontFamily,fontBolder,fontMedium} from "../styles/fonts"
 import MyVideo from "../images/introBeach.mp4";
 import RectangleButton from "./RectangleButton"
 const IntroContainer = styled.div`
@@ -24,7 +24,7 @@ const TextLight = styled.div`
     font-weight: ${fontMedium};
 `
 const TextBold = styled.div`
-    font-weight: ${fontBold};
+    font-weight: ${fontBolder};
 `
 
 const IntroImg = styled.video`
